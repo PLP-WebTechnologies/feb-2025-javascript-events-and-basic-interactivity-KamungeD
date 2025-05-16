@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+  background: #f9f9f9;
+}
+button, input {
+  margin: 0.5rem;
+}
+#hoverBox {
+  display: inline-block;
+  padding: 1rem;
+  background: #eee;
+  border: 1px solid #ccc;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+#hoverBox.active {
+  background: #cceeff;
+}
+.tab-content {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+.tabs .tab {
+  margin-right: 0.5rem;
+}
+.gallery img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-left: 0.5rem;
+}
